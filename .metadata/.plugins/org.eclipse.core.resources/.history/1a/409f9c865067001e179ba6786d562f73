@@ -1,0 +1,31 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class Multiarray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		String [][]data= {
+				{"strno","strname","marks"},
+				{"1","Rahul","90"},
+				{"2","prajwal","80"},
+				{"3","bharat","70"},
+				{"4","Moin","75"},
+					{"5","chandu","85"},
+				
+		};
+		System.out.println("enter the roll no");
+		int rno=sc.nextInt();
+		//if()
+			for(int i=0;i<data.length;i++) {
+				for(int j=0;i<data[i].length;j++) {
+					System.out.println(data[i][j]);
+				}
+				
+			}
+
+	}
+
+}

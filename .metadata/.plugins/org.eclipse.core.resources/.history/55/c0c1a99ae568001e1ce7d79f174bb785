@@ -1,0 +1,14 @@
+package com.cg;
+
+public class LibraryInterfaceDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LibraryUser lu;
+		lu=new KidUser();
+		lu.registerAccount(18);
+		lu.requestBook("kids");
+
+	}
+
+}

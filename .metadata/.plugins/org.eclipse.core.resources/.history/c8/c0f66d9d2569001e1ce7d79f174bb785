@@ -1,0 +1,14 @@
+package GeneralBank.com.cg;
+
+public class KotMBank {
+public double getSavingInterestRate() {
+	return 6;
+		
+	}
+	public double getFixedInterestRate() {
+		return 9;
+		
+	}
+	
+
+}

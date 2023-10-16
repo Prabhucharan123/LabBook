@@ -1,0 +1,26 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class Sourceplayer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the no players you want");
+		int noofplayers=sc.nextInt();
+		Player player=new Player();
+		Player[] player1=new Player[noofplayers];
+		player.setPlayerName("virat");
+		player.setCountry("india");
+		player.setSkills("batsman");
+		Player p1=new Player();
+		p1.setPlayerName("steven");
+		p1.setCountry("australia");
+		p1.setSkills("alrouder");
+		
+		
+
+	}
+
+}

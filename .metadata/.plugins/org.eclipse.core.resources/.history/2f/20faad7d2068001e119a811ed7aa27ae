@@ -1,0 +1,36 @@
+package com.cg;
+
+public class PermanentEmployee extends Employee{
+	private String designation;
+	private double hikePercent;
+	public PermanentEmployee(int employeeId, String employeeName, Double baseSalary, String designation,
+			double hikePercent) {
+		super(employeeId, employeeName, baseSalary);
+		this.designation = designation;
+		this.hikePercent = hikePercent;
+	}
+	public PermanentEmployee(int employeeId, String employeeName, Double baseSalary) {
+		super(employeeId, employeeName, baseSalary);
+	}
+	public String getDesignation() {
+		return designation;
+	}
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+	public double getHikePercent() {
+		return hikePercent;
+	}
+	public void setHikePercent(double hikePercent) {
+		this.hikePercent = hikePercent;
+	}
+	
+	public void calculateSalaryHike() {
+		double basicSalary=super.getBaseSalary();
+		
+		 hikePercent=basicSalary+(hikePercent*super.getBaseSalary())/100;
+		 System.out.println("Salary Hike :"+hikePercent);
+
+    }
+
+}

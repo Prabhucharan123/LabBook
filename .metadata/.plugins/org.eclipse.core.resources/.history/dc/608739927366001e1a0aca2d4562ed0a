@@ -1,0 +1,17 @@
+package com.cg;
+
+public class SourceMatch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Match m=new Match("Australia","Steve",3);
+		System.out.println(m);
+		//m.setCaptain("India");
+		//m.setCaptain("Rohit");
+		//m.setNoMatchesPlayed(3);
+		//System.out.println(m);
+		
+
+	}
+
+}

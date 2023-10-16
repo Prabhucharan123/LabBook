@@ -1,0 +1,32 @@
+package com.cg;
+
+public class Vehicle {
+	
+	private int Regno; 
+	private String brand;
+	private int price;
+	private int mileage;
+	int p=0;
+	public Vehicle(int regno, String brand, int price, int mileage) {
+		super();
+		Regno = regno;
+		this.brand = brand;
+		this.price = price;
+		this.mileage = mileage;
+	}
+	void display() {
+		
+	}
+	@Override
+	public String toString() {
+		return "Vehicle [Regno=" + Regno + ", brand=" + brand + ", price=" + price + ", mileage=" + mileage + "]";
+	}
+	void getPrice() {
+		System.out.println(price);
+		
+		
+	}
+	
+	
+
+}

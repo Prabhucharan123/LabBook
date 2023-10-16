@@ -1,0 +1,27 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class SourceAccount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter Accno");
+		int Acno=sc.nextInt();
+		System.out.println("enter Acname");
+		String Acname=sc.next();
+		System.out.println("eneter bal");
+		int Bal=sc.nextInt();
+		System.out.println("enter the amount to withdraw");
+		
+		Account a=new Account(Acno,Acname,Bal);
+		
+        a.accountDetails();
+		a.newTransaction();
+		
+		
+
+	}
+
+}

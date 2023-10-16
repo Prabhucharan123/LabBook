@@ -1,0 +1,35 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class SourceVehicle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Vehicle v=new Vehicle();
+		v.setBrand("alto");
+		v.setMileage(23);
+		v.setPrice(10000);
+		v.setRegno(123);
+		v.display();
+		v.getPrice();
+		System.out.println(v);
+		v.getPrice();
+		Vehicle v1=new Vehicle();
+		v1.setBrand("benz");
+		v1.setMileage(253);
+		v1.setPrice(20000);
+		v1.setRegno(45);
+		
+		v1.display();
+		System.out.println(v1);
+		
+		v1.getPrice();
+		
+		
+		
+
+	}
+
+}

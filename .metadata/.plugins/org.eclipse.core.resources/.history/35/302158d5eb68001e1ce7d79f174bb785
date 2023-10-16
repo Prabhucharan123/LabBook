@@ -1,0 +1,31 @@
+package live;
+
+import music.Playable;
+import music.string.Veena;
+import music.wind.Saxophone;
+
+public class Test {
+	 static void check(Playable p) {
+		if(p instanceof Veena) {
+			p.play();
+		}else if(p instanceof Saxophone) {
+			p.play();
+		}
+	}
+	public static void main(String[] args) {
+		
+			
+		
+		// ODO Auto-generated method stub
+	Playable p;
+		 p=new Veena();
+		
+ p=new Saxophone();
+		check(p);
+		
+		
+	
+
+	}
+
+}

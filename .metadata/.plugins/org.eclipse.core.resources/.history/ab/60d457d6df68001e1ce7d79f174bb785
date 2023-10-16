@@ -1,0 +1,9 @@
+package com.cg;
+
+public class LibraryUser {
+	Method Name;
+	registerAccount(int age)
+	requestBook(String bname)
+	
+
+}

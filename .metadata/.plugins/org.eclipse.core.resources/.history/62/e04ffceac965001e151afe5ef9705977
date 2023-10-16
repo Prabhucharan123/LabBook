@@ -1,0 +1,19 @@
+package com.cg;
+import java.util.Scanner;
+
+public class Palindrome {
+	public static void main(String[] args) {
+	//int n=Integer.parseInt(args[0]);
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+	int sum=0; int temp;
+	temp=n;
+	while(n>0) {
+		temp=n%10;
+		sum=(sum*10)+temp;
+		n=n/10;
+	}
+	System.out.println(sum+" is a palindrome");
+	
+	}
+}

@@ -1,0 +1,17 @@
+package com.cg;
+
+public class FigureTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Triangle t=new Triangle(1,4);
+		t.area();
+		//Rectangle r=new Rectangle(1,3);
+//		r=area();
+		}
+
+	
+
+	}
+
+

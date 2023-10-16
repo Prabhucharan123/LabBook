@@ -1,0 +1,29 @@
+package com.cg;
+
+public class Book {
+	private int bno;
+	private String title;
+	private String author;
+	private int price;
+	public int d;
+	public Book(int bno, String title, String author, int price) {
+		super();
+		this.bno = bno;
+		this.title = title;
+		this.author = author;
+		this.price = price;
+	}
+	void displayDetails() {
+		
+	}
+	@Override
+	public String toString() {
+		return "Book [bno=" + bno + ", title=" + title + ", author=" + author + ", price=" + price + "]";
+	}
+	void discountedPrice(int discount) {
+		int d=price*(discount)/100;
+		System.out.println(d);
+	}
+	
+
+}

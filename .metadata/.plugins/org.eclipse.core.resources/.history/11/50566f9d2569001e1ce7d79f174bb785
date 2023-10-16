@@ -1,0 +1,21 @@
+package GeneralBank.com.cg;
+
+public class GeneralBankTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ICICIBank ic=new ICICIBank();
+		KotMBank kb=new KotMBank();
+		ic.getSavingInterestRate();
+		ic.getFixedInterestRate();
+		kb.getSavingInterestRate();
+		kb.getSavingInterestRate();
+		
+		
+		
+		
+
+	}
+
+}

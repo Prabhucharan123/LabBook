@@ -1,0 +1,14 @@
+package com.cg;
+
+public class test1 {
+	public static void main(String[] args)
+	{
+		System.out.print("welcome ");
+		String a=args[0];
+		System.out.println(a);
+	}
+	
+		
+	
+
+}

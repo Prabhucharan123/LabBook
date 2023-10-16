@@ -1,0 +1,23 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class Sourceplayer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Player p1=new Player("virat","india","batsman");
+		Player p2=new Player("hardik","India","alrounder");
+		Player p3=new Player("steve","australia","alrounder");
+		Player[] player= {p1,p2,p3};
+		PlayerBo bo=new PlayerBo();
+		bo.displayPlayerdetails(player);
+		bo.displayPlayerByCountry(player, "australia");
+	//	bo.displayPlayerdetails(player);
+		
+		
+
+	}
+
+}

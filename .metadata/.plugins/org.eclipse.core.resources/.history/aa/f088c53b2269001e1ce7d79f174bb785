@@ -1,0 +1,21 @@
+package Instrument.com.cg;
+
+public class InstumentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Instrument i0=new Piano();
+		Instrument i1=new Guitar();
+		Instrument i2=new Flute();
+		Instrument[] i3= {i0,i1,i2};
+		//i3.play();
+		for(int i=0;i<i3.length;i++) {
+			System.out.println("the object stored at "+i+" location" );
+			//System.out.println(Instrument[]i3.play(););
+			System.out.println(i3);
+			
+		}
+
+	}
+
+}

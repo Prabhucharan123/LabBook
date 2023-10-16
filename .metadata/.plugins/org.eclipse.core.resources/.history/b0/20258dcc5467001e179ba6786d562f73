@@ -1,0 +1,25 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class Sourceticket {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter no of bookings");
+		int a=sc.nextInt();
+		System.out.println("Enter the available tickets");
+		int b=sc.nextInt();
+		System.out.println("Enter the ticketid");
+		System.out.println("Enter the price");
+		int d=sc.nextInt();
+		int c=sc.nextInt();
+		Ticket t=new Ticket();
+		t.setTicketid(c);
+		t.setPrice(d);
+		//System.out.println(c);
+
+	}
+
+}

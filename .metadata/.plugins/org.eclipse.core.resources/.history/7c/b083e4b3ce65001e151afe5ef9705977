@@ -1,0 +1,28 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class Multiplicationofn {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		System.out.println("please enter a number");
+		int i=0;int sum = 0;
+		
+		while(n>0) {
+			sum=n*i;
+			i++;
+			if(i==11) {
+				break;
+			}
+			
+			
+		}
+		System.out.println(n+" * "+i+" = "+sum);
+		
+
+	}
+
+}

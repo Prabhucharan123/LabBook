@@ -1,0 +1,47 @@
+package com.cg;
+
+public class Match {
+	private String country;
+	private String captain;
+	private int noMatchesPlayed;
+	//public Match(String country, String captain, int noMatchesPlayed) {
+		//super();
+		//this.country = country;
+		//this.captain = captain;
+		//this.noMatchesPlayed = noMatchesPlayed;
+	//}
+	
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getCaptain() {
+		return captain;
+	}
+
+	public void setCaptain(String captain) {
+		this.captain = captain;
+	}
+
+	public int getNoMatchesPlayed() {
+		return noMatchesPlayed;
+	}
+
+	public void setNoMatchesPlayed(int noMatchesPlayed) {
+		this.noMatchesPlayed = noMatchesPlayed;
+	}
+
+	@Override
+	public String toString() {
+		return " [country=" + country + ", captain=" + captain + ", noMatchesPlayed=" + noMatchesPlayed + "]";
+	}
+	
+	
+	
+	
+
+}

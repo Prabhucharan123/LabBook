@@ -1,0 +1,55 @@
+package com.cg;
+
+public class User {
+	private int uid;
+	private String uname;
+	private String email;
+    private double walletBalance;
+	
+	public User(int uid, String uname, String email, int walletBalance) {
+		super();
+		this.uid = uid;
+		this.uname = uname;
+		this.email = email;
+		this.walletBalance = walletBalance;
+	}
+	public User() {
+		super();
+	}
+	public int getUid() {
+		return uid;
+	}
+	public void setUid(int uid) {
+		this.uid = uid;
+	}
+	public String getUname() {
+		return uname;
+	}
+	public void setUname(String uname) {
+		this.uname = uname;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public double getWalletBalance() {
+		return walletBalance;
+	}
+	public void setWalletBalance(double walletBalance) {
+		this.walletBalance = walletBalance;
+	}
+    
+	void makePayment(double amt) {
+		if(amt<walletBalance) {
+			System.out.println("Sorry "+uname+" you do not have enough balance to pay the bill\r\n"
+					+ "  your walle balance is Rs "+walletBalance);
+		}else {
+			walletBalance=walletBalance-amt;
+			System.out.println("Congratulation , paym "+uname+"ent of Rs 70 was done succesfully\r\n"
+					+ "   your wallet balance is Rs "+walletBalance);
+		}
+	}
+
+}

@@ -1,0 +1,49 @@
+package com.cg;
+
+public class Vehicle {
+	
+	private int Regno; 
+	private String brand;
+	private int price;
+	private int mileage;
+	
+	
+	
+	public int getRegno() {
+		return Regno;
+	}
+	public void setRegno(int regno) {
+		Regno = regno;
+	}
+	public String getBrand() {
+		return brand;
+	}
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	public int getMileage() {
+		return mileage;
+	}
+	public void setMileage(int mileage) {
+		this.mileage = mileage;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	void display() {
+		
+	}
+	@Override
+	public String toString() {
+		return "Vehicle [Regno=" + Regno + ", brand=" + brand + ", price=" + price + ", mileage=" + mileage + "]";
+	}
+	void getPrice() {
+		System.out.println(price);
+		
+	}
+	public void check() {
+		if(v.setPrice < v1.setPrice) {
+			System.out.println("Lowest"+brand);
+		}
+	}
+}

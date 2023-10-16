@@ -1,0 +1,8 @@
+package com.cg;
+
+public class Customer {
+	int cId;
+	int cName;
+	int 
+
+}

@@ -1,0 +1,28 @@
+package handson.com.cg;
+
+public class Trendy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 3. int n=379
+        // find if the given no is trendy no
+		// 1. 3 digit no
+        // 2. middle digit should be divisible by 3
+		int n=399;
+		String s=Integer.toString(n);
+		if(s.length()==3) {
+			String s1=String.valueOf(s.charAt(1));
+			int num=Integer.parseInt(s1);
+			if(num%3==0) {
+				System.out.println(n+" is Trendy number");
+				
+			}else {
+				System.out.println("invalid number");	
+				}}
+			else {
+				System.out.println("invalid number");
+			}
+		}	
+	}
+
+

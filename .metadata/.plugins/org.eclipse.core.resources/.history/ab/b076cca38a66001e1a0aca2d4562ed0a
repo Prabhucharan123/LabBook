@@ -1,0 +1,32 @@
+package com.cg;
+
+import java.util.Scanner;
+
+public class SourceVehicle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter regno");
+		int regno=sc.nextInt();
+		System.out.println("enter brand");
+		String brand=sc.next();
+		System.out.println("enter price");
+		int price=sc.nextInt();
+		System.err.println("enter milage");
+		int milage=sc.nextInt();
+		Vehicle v=new Vehicle(regno,brand,price,milage);
+		v.display();
+		System.out.println(v);
+		v.getPrice();
+		Vehicle v1=new Vehicle(regno,brand,price,milage);
+		v1.display();
+		System.out.println(v1);
+		v1.getPrice();
+		
+		
+		
+
+	}
+
+}

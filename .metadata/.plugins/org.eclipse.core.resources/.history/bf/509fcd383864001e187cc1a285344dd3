@@ -1,0 +1,19 @@
+package com.cg;
+import java.util.Scanner;
+
+public class Prime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+			Scanner a=new Scanner(System.in);
+			System.out.println("please enter an integer numnber");
+			int b=a.nextInt();
+			
+			
+			
+			
+			
+	}
+
+}

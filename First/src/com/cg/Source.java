@@ -1,0 +1,18 @@
+package com.cg;
+
+public class Source {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s=new Student();
+		s.setName("Prabhu");
+		s.setRollno(23);
+		s.setSub1(1);
+		s.setSub2(2);
+		s.setSub3(3);
+		System.out.println(s);
+		
+
+	}
+
+}

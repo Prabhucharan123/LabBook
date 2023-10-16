@@ -1,0 +1,28 @@
+package handson.com.cg;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 4. String str="rahul sachin vinod anil"
+        //u have convert the first char of each word in upper case
+		String str="rahul sachin vinod anil";
+		String[] s=str.split(" ");
+		String finalanswer="" ;
+		for(int i=0;i<s.length;i++) {
+			String s1=""+s[i].charAt(0);
+			String convert=s1.toUpperCase();
+			int n=s[i].length();
+		String ans=s[i].substring(1,n);
+		 finalanswer=convert+ans;
+		 System.out.println(finalanswer);
+			
+			
+		}
+	//	System.out.println(finalanswer);
+		
+
+
+	}
+
+}

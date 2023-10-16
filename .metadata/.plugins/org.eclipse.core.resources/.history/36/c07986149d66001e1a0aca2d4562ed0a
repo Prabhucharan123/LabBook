@@ -1,0 +1,30 @@
+package com.cg;
+
+public class Account {
+	private int Acno;
+	private String Acname;
+	private int Bal;
+	public Account(int acno, String acname, int Bal) {
+		super();
+		Acno = acno;
+		Acname = acname;
+		this.Bal = Bal;
+	}
+	void withdraw(int amt) { 
+		 Bal=Bal-amt;
+		System.out.println("amount after withdraw "+Bal);
+		
+	}
+	
+    void  deposit(int amt) {
+    	Bal=Bal+amt;
+    	System.out.println("amount after deposit "+Bal);
+    }
+   void printBal() {
+	   System.out.println(Bal);
+	   
+   }
+	
+
+}
+

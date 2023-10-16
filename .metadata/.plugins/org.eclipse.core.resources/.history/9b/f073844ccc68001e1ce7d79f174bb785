@@ -1,0 +1,13 @@
+package com.cg;
+
+public class TaxiCab implements PublicTransport{
+	double billAmount;
+	public double calculateFare(int d) {
+		 billAmount=(d*rate)+minAmount;
+		return billAmount;
+		
+		
+	}
+	
+
+}

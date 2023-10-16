@@ -1,0 +1,20 @@
+package com.cg;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("hello world");
+		int a=10;
+		char d='b';
+		boolean y=false;
+		double f=6.55;
+		System.out.println("integer value "+a);
+		System.out.println("boolean value "+f);
+		System.out.println("double value "+y);
+		System.out.println("char value "+d);
+
+	}
+
+}
